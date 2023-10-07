@@ -1,0 +1,75 @@
+/* ========== Basic Setup ========== */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-family: 'League Spartan', sans-serif;
+}
+
+/* ========== Counter Section ========== */
+
+.counter-section {
+    background-image: url(/assets/images/1.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.counter-section .container {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.counter-section .container h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 1.3;
+}
+
+.counter-section .container .counter-row {
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+}
+
+.counter-section .container .counter-row .counter-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+    margin-top: 1rem;
+}
+
+.counter-section .container .counter-row .counter-col input {
+    width: 8rem;
+    outline: none;
+    border: none;
+    border-radius: .5rem;
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.counter-section .container .counter-row .counter-col label {
+    color: white;
+    font-size: 1.8rem;
+}
